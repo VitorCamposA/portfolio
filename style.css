@@ -22,7 +22,7 @@ a{color:var(--accent)}
 }
 
 /* Nav */
-header{position:sticky;top:0;background:rgba(12,10,26,.8);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+header{position:sticky;top:0;background:rgba(12,10,26,.8);backdrop-filter:blur(12px);border-bottom:1px solid var(--line); z-index:990;}
 nav{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:16px 20px}
 .logo{font-family:'JetBrains Mono',monospace;font-weight:600;font-size:20px;color:var(--text);text-decoration:none}
 .logo span{color:var(--accent)}
